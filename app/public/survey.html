@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    
+    
+    <script src="https://use.fontawesome.com/a10f04bb8a.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    
+   
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center display-3">
+                <i class="fa fa-th-list" aria-hidden="true"></i>
+                <strong> Survey</strong>
+            </h1>
+
+            <h2 class="text-center text-muted">Please be honest, Ill only judge you a little bit</h2>
+        </div>
+        <h3>
+            <strong>Brag About Yourself</strong>
+        </h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control input-lg" required>
+
+        <h4>Show me a picture of yourself (Link Required)</h4>
+        <input type="text" id="selfie" class="form-control input-lg" required>
+
+        <h3>
+            <strong>Question 1</strong>
+        </h3>
+        <h4>You like puppies</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q1">
+                        <option value=""></option>
+                        <option value="1">1 (Weird Cat Lady)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (I identify as a dog)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 2</strong>
+        </h3>
+        <h4>You enjoy long walks on the beach</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q2">
+                        <option value=""></option>
+                        <option value="1">1 (Screw going outside)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Bring me a Mai Tai)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 3</strong>
+        </h3>
+        <h4>You think Collin is the greatest person ever</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q3">
+                        <option value=""></option>
+                        <option value="5">5(BFFS!)</option>
+                        <option value="5">5(BFFS!)</option>
+                        <option value="5">5(BFFS!)</option>
+                        <option value="5">5(BFFS!)</option>
+                        <option value="5">5(BFFS!)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 4</strong>
+        </h3>
+        <h4>Ajit Pai...</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q4">
+                        <option value=""></option>
+                        <option value="1">1(#SAVETHEMEMES)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5(Anti-American)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 5</strong>
+        </h3>
+        <h4>You just had an easy day at work... How many shots?</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q5">
+                        <option value=""></option>
+                        <option value="1">1(bottle))</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5(Taking it easy)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 6</strong>
+        </h3>
+        <h4>You like puppies</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q6">
+                        <option value=""></option>
+                        <option value="1">1(Weird Cat Lady)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5(I identify as a dog)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 7</strong>
+        </h3>
+        <h4>You like puppies</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q7">
+                        <option value=""></option>
+                        <option value="1">1(Weird Cat Lady)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5(I identify as a dog)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 8</strong>
+        </h3>
+        <h4>You like puppies</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q8">
+                        <option value=""></option>
+                        <option value="1">1(Weird Cat Lady)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5(I identify as a dog)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 9</strong>
+        </h3>
+        <h4>You like puppies</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q9">
+                        <option value=""></option>
+                        <option value="1">1(Weird Cat Lady)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5(I identify as a dog)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            <strong>Question 10</strong>
+        </h3>
+        <h4>You like puppies</h4>
+
+        <div class="field">
+            <div class="control has-icons-left">
+                <div class="select is-info is-medium">
+                    <select id="q10">
+                        <option value=""></option>
+                        <option value="1">1(Weird Cat Lady)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5(I identify as a dog)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button id="submitBtn" type="submit" class="btn btn-primary btn-lg">Submit</button>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="text-center">
+                    <a href="/api/people">People List API</a> |
+                    <a href="#">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+
+
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 id="drinkMatch">Your Best Drink: </h4>
+                    <img id="drinkImage" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script type="text/javascript">
+    $("#submitBtn").on("click", (event) => {
+        event.preventDefault();
+        var newPerson = {
+            name: $("#name").val(),
+            photo: $("#selfie").val(),
+            scores: [
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+            ]
+        };
+        $.ajax("/api/people", {
+            data: JSON.stringify(newPerson),
+            contentType: 'application/json',
+            type: 'POST'
+        }).done((data) => {
+            $("#drinkMatch").append(data.drinkName);
+            $("#drinkImage").attr("src", data.drinkSelfie);
+            $("#myModal").modal("toggle");
+
+        })
+
+    });
+</script>
+
+</html>
